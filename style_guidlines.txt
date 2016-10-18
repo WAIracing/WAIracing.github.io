@@ -1,3 +1,8 @@
+
+Style———
+All styles are imported from css.css
+————
+
 Colours———
 https://color.adobe.com/Usain-Red-color-theme-8681535/
 #F8F8F8
@@ -11,3 +16,6 @@ Fonts———
 we are using the default font
 ————
 
+Nav Bar———
+Nav Bar style is imported from css file
+————
