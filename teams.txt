@@ -1,0 +1,11 @@
+List of teams and team information below.
+
+Fomatting:
+---team name----
+--simple team description---
+---scores---
+
+1.
+Moogle:
+Team Moogle was one of the original seven teams to join WAIracing. Their goal was to push the sport of racing into the future with their dedicated team of programmers. Their dedication has lead them to be in the top 5 for the last 4 years.
+Scoreboard: Postion 2/31 overall , 8 gold, 11 silver, 9 bronze , Participated in 121 races, Best lap (WAIR speedway: 1m,21s)
