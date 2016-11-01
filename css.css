@@ -11,13 +11,13 @@ body
 	margin-bottom: 0px;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	height: 400px;
+	height: 2000px;
 	border-style: none solid none solid;
 	border-color: #EE0000;
 	background-color: #FFFFFF;
 }
 
-.mainbox p 
+.mainbox p
 {
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
