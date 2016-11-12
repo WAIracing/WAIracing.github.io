@@ -8,18 +8,80 @@
 		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style>
+table
+{
+	width:100%;
+
+
+
+}
+table, th, td
+{
+	border-style: solid;
+	border-color: #333333;
+	border-collapse: collapse;
+}
+th, td
+{
+	text-align: center;
+	font-family: "Nunito", sans-serif;
+}
+th
+{
+	background-color: #333333;
+	color: white;
+	border-bottom-color: #EE0000;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 100%;
+}
+td
+{
+	padding : 6px;
+	font-size: 155%;
+}
+marquee{
+	border-style:solid;
+	border-color: #333333;
+}
+.text{
+	border-style:solid;
+	border-color: #333333;
+	font-size: 20px;
+}
+.mid{
+	width:100%;
+	height:50%;
+		margin:auto;
+}
 .join{
+
+		float:left;
 		text-align: center;
 		text-decoration: underline;
 		font-size: 40px;
-		margin-left:40%;
-		position:center;
 		padding:30px;
-		width:200px;
-
-		border-radius: 25px;
+		width:400px;
+		height:300px;
 
 		background-color:#EE0000;
+	}
+
+	.stats{
+
+
+		float:left;
+
+	}
+	h2{
+
+
+		text-align: center;
+		border-style:solid;
+		border-color: #333333;
+
+		font-family: "Nunito", sans-serif;
+
 	}
 </style>
 	</head>
@@ -45,7 +107,6 @@
 
 		<div class="mainbox">
 
-		<p>Fantasy content goes here...</p>
 
 		<div class="text">
 
@@ -53,11 +114,23 @@
 				<p>All NEW FANTASY RACING LEAGUE</p>
 
 			</div>
+			<div class="mid">
+			<div class="stats">
+
+
+				<img img src="stats.jpg" alt="Picture here" style="width:600px;height:300px;">
+			</div>
 			<div class="join">
 				<p>
 					JOIN NOW
 				</p>
 			</div>
+			<div class="picture">
+
+
+				<img img src="win.jpg" alt="Picture here" style="width:600px;height:300px;">
+			</div>
+			<div class="mid">
 			<div>
 				<p>
 					WAI Racing offers a fantasy league where players can use their knowledge and skills to follow teams and track preformance.<br />
@@ -65,18 +138,61 @@
 
 				</p>
 			</div>
-			<div class = "legal">
-				<p>
-					enter legal stuff here
-				</p>
-			</div>
+
 			<div>
-				<p>
-					2016 fantasy league winners!
-
-				</p>
+				<h2>
+					Recent scores</h2>
+					<marquee>1. Fantasy King +1 ▲ 2. Billy Joe +1 ▲ 3. Elon -2 ▼ 4. Racefan92 +3 ▲ 5. John Smith -1 ▼ 6. Tyler1 -1 ▼ 7. John Cena -1 ▼ 8. Fernando +0 ▲ 9. Batman43 +1 ▲ 10. Faker -1 ▼</marquee>
 
 			</div>
+			<h2>
+				 Top Scores</h2>
+			<table>
+				<tr>
+					<th>Pos</th>
+					<th>Player</th>
+				</tr>
+				<tr>
+					<td>1.</td>
+					<td>Fantasy King</td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>Billy Joe</td>
+				</tr>
+				<tr>
+					<td>3.</td>
+					<td>Elon</td>
+				</tr>
+				<tr>
+					<td>4.</td>
+					<td>Racefan92</td>
+				</tr>
+				<tr>
+					<td>5.</td>
+					<td>John Smith</td>
+				</tr>
+				<tr>
+					<td>6.</td>
+					<td>Tyler1</td>
+				</tr>
+				<tr>
+					<td>7.</td>
+					<td>John Cena</td>
+				</tr>
+				<tr>
+					<td>8.</td>
+					<td>Fernando</td>
+				</tr>
+				<tr>
+					<td>9.</td>
+					<td>Batman43</td>
+				</tr>
+				<tr>
+					<td>10.</td>
+					<td>Faker</td>
+				</tr>
+			</table>
 		</div>
 
 		<footer id="foot">WAIracing<sup>©</sup> 2016</footer>
