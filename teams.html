@@ -4,16 +4,29 @@
 	<head>
 
 		<title>WAIracing</title>
+		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css.css">
 		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style>
+		#racecarlogo
+		{
+			height: 10%;
+			width: 15%;
+			float: left;
+			padding: 0%;
+			margin: 0%;
+		}
+		.car
+		{
+			margin: 1%;
+		}
 		p
 		{
 			margin: 2px;
 			border-style: solid;
 			border-color: #333333;
-			box-shadow: 5px 5px grey;
+			text-align: left;
 		}
 		table
 		{
@@ -55,11 +68,7 @@
 	</head>
 
 	<body>
-<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 		<div class="topbar">
 
 			<ul>
@@ -78,130 +87,50 @@
 
 		<div class="mainbox">
 
-			<h2><p>The Teams</p></h2>
-			<table>
-				<tr>
-					<th>Pos</th>
-					<th>TEAM</th>
-					<th>The Car</th>
-					<th>SCORE</th>
-					<th>RACES</th>
-					<th>WINS</th>
-					<th>TOP 10</th>
-					<th>TOP 5</th>
-					<th>+/-</th>
-
-				</tr>
-				<tr>
-					<td>1.</td>
-					<td>Moogle</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>2.</td>
-					<td>Team Doge</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>3.</td>
-					<td>JeForce</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>4.</td>
-					<td>Yaboo</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>5.</td>
-					<td>UberAI</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>6.</td>
-					<td>MiniSoft</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>7.</td>
-					<td>AyyMD</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>8.</td>
-					<td>Britim</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>9.</td>
-					<td>NafCo</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
-				<tr>
-					<td>10.</td>
-					<td>Zony</td>
-					<td>Picture</td>
-					<td>000</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td>00</td>
-					<td class="change+">+0 ▲</td>
-				</tr>
+			<div class="car">
+				<table>
+					<tr>
+						<td><h1>Moogle</h1></td>
+						<td>#49</td>
+						<td><img src="racecar.png" alt="racecar" id="racecarlogo"></td>
+						<td><b>Ranking:</b><br>#1</td>
+						<td><p><b>Wins:</b> 39<br><b>Top 10:</b> 21<br><b>Top 5:</b> 19</p></td>
+					</tr>
+				</table>
+			</div>
+			<div class="car">
+				<table>
+					<tr>
+						<td><h1>Moogle</h1></td>
+						<td>#49</td>
+						<td><img src="racecar.png" alt="racecar" id="racecarlogo"></td>
+						<td><b>Ranking:</b><br>#1</td>
+						<td><p><b>Wins:</b> 39<br><b>Top 10:</b> 21<br><b>Top 5:</b> 19</p></td>
+					</tr>
+				</table>
+			</div>
+			<div class="car">
+				<table>
+					<tr>
+						<td><h1>Moogle</h1></td>
+						<td>#49</td>
+						<td><img src="racecar.png" alt="racecar" id="racecarlogo"></td>
+						<td><b>Ranking:</b><br>#1</td>
+						<td><p><b>Wins:</b> 39<br><b>Top 10:</b> 21<br><b>Top 5:</b> 19</p></td>
+					</tr>
+				</table>
+			</div>
+			<div class="car">
+				<table>
+					<tr>
+						<td><h1>Moogle</h1></td>
+						<td>#49</td>
+						<td><img src="racecar.png" alt="racecar" id="racecarlogo"></td>
+						<td><b>Ranking:</b><br>#1</td>
+						<td><p><b>Wins:</b> 39<br><b>Top 10:</b> 21<br><b>Top 5:</b> 19</p></td>
+					</tr>
+				</table>
+			</div>
 
 		</div>
 
