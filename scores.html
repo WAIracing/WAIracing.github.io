@@ -4,6 +4,7 @@
 	<head>
 
 		<title>WAIracing</title>
+		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css.css">
 		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -49,17 +50,33 @@
 			font-size: 155%;
 		}
 		
+		.changepos
+		{
+			color: Green;
+		}
+		
+		.changeneg
+		{
+			color: Red;
+		}
+		
 		h2
 		{
 			text-align: center;
 			font-family: "Nunito", sans-serif;
+			margin-bottom: 1%;
+			margin-top: 1%;
 		}
 		
-		.topscore
+		.toptime
 		{
 			overflow: hidden;
 		}
 		
+		.toptime h2
+		{
+			margin-bottom: 3%;
+		}
 		.mainbox
 		{
 			padding-top: 0%;
@@ -71,28 +88,28 @@
 			overflow: hidden;
 		}
 		
-		.topscore1
+		.toptime1
 		{
 			width: 23%;
 			float: left;
 			margin: 1%;
 			overflow: hidden;
 		}
-		.topscore2
+		.toptime2
 		{
 			width: 23%;
 			float: left;
 			margin: 1%;
 			overflow: hidden;
 		}
-		.topscore3
+		.toptime3
 		{
 			width: 23%;
 			float: left;
 			margin: 1%;
 			overflow: hidden;
 		}
-		.topscore4
+		.toptime4
 		{
 			width: 23%;
 			float: left;
@@ -101,7 +118,8 @@
 		}
 		.foot
 		{
-			padding: 10%;
+			padding: 5%;
+			text-align: center;
 		}
 		
 		</style>
@@ -109,12 +127,7 @@
 	</head>
 
 	<body>
-
-<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			
 		<div class="topbar">
 
 			<ul>
@@ -153,553 +166,333 @@
 						</tr>
 						<tr>
 							<td>1.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Moogle</td>
+							<td>49</td>
+							<td>381</td>
+							<td>40</td>
+							<td>31</td>
+							<td>10</td>
+							<td>21</td>
+							<td class="changepos">+1 ▲</td>
 						</tr>
 						<tr>
 							<td>2.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Waze</td>
+							<td>89</td>
+							<td>380</td>
+							<td>40</td>
+							<td>32</td>
+							<td>12</td>
+							<td>19</td>
+							<td class="changepos">+2 ▲</td>
 						</tr>
 						<tr>
 							<td>3.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>JeForce</td>
+							<td>11</td>
+							<td>375</td>
+							<td>40</td>
+							<td>30</td>
+							<td>15</td>
+							<td>14</td>
+							<td class="changeneg">-1 ▼</td>
 						</tr>
 						<tr>
 							<td>4.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Doge</td>
+							<td>54</td>
+							<td>371</td>
+							<td>40</td>
+							<td>29</td>
+							<td>12</td>
+							<td>11</td>
+							<td class="changeneg">-1 ▼</td>
 						</tr>
 						<tr>
 							<td>5.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>MiniSoft</td>
+							<td>32</td>
+							<td>368</td>
+							<td>40</td>
+							<td>29</td>
+							<td>11</td>
+							<td>11</td>
+							<td class="changepos">+2 ▲</td>
 						</tr>
 						<tr>
 							<td>6.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Gremin</td>
+							<td>10</td>
+							<td>363</td>
+							<td>40</td>
+							<td>27</td>
+							<td>13</td>
+							<td>9</td>
+							<td class="changeneg">-3 ▼</td>
 						</tr>
 						<tr>
 							<td>7.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Flamers</td>
+							<td>67</td>
+							<td>351</td>
+							<td>40</td>
+							<td>25</td>
+							<td>10</td>
+							<td>7</td>
+							<td class="changepos">+1 ▲</td>
 						</tr>
 						<tr>
 							<td>8.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Zony</td>
+							<td>82</td>
+							<td>345</td>
+							<td>40</td>
+							<td>25</td>
+							<td>6</td>
+							<td>10</td>
+							<td class="changepos">+1 ▲</td>
 						</tr>
 						<tr>
 							<td>9.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Monox</td>
+							<td>2</td>
+							<td>344</td>
+							<td>40</td>
+							<td>24</td>
+							<td>11</td>
+							<td>7</td>
+							<td>+0 ▲</td>
 						</tr>
 						<tr>
 							<td>10.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Yaboo</td>
+							<td>17</td>
+							<td>339</td>
+							<td>39</td>
+							<td>26</td>
+							<td>7</td>
+							<td>4</td>
+							<td class="changeneg">-1 ▼</td>
 						</tr>
 						<tr>
 							<td>11.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>The Bloc</td>
+							<td>55</td>
+							<td>332</td>
+							<td>39</td>
+							<td>24</td>
+							<td>11</td>
+							<td>4</td>
+							<td>+0 ▲</td>
 						</tr>
 						<tr>
 							<td>12.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Texler</td>
+							<td>48</td>
+							<td>327</td>
+							<td>38</td>
+							<td>26</td>
+							<td>6</td>
+							<td>2</td>
+							<td class="changepos">+2 ▲</td>
 						</tr>
 						<tr>
 							<td>13.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>AyyMD</td>
+							<td>27</td>
+							<td>320</td>
+							<td>36</td>
+							<td>28</td>
+							<td>4</td>
+							<td>7</td>
+							<td class="changeneg">-4 ▼</td>
 						</tr>
 						<tr>
 							<td>14.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Speedman</td>
+							<td>19</td>
+							<td>311</td>
+							<td>39</td>
+							<td>29</td>
+							<td>2</td>
+							<td>1</td>
+							<td class="changepos">+1 ▲</td>
 						</tr>
 						<tr>
 							<td>15.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Faraway</td>
+							<td>37</td>
+							<td>302</td>
+							<td>37</td>
+							<td>22</td>
+							<td>11</td>
+							<td>2</td>
+							<td>+0 ▲</td>
 						</tr>
 						<tr>
 							<td>16.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Mullroni</td>
+							<td>63</td>
+							<td>293</td>
+							<td>36</td>
+							<td>18</td>
+							<td>3</td>
+							<td>3</td>
+							<td>+0 ▲</td>
 						</tr>
 						<tr>
 							<td>17.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Cherkov</td>
+							<td>31</td>
+							<td>284</td>
+							<td>35</td>
+							<td>23</td>
+							<td>13</td>
+							<td>3</td>
+							<td class="changeneg">-2 ▼</td>
 						</tr>
 						<tr>
 							<td>18.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Pear</td>
+							<td>6</td>
+							<td>245</td>
+							<td>35</td>
+							<td>22</td>
+							<td>8</td>
+							<td>3</td>
+							<td class="changepos">+1 ▲</td>
 						</tr>
 						<tr>
 							<td>19.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Yokomoto</td>
+							<td>33</td>
+							<td>229</td>
+							<td>34</td>
+							<td>19</td>
+							<td>9</td>
+							<td>1</td>
+							<td class="changepos">+4 ▲</td>
 						</tr>
 						<tr>
 							<td>20.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Azuz</td>
+							<td>12</td>
+							<td>208</td>
+							<td>34</td>
+							<td>21</td>
+							<td>5</td>
+							<td>2</td>
+							<td class="changeneg">-1 ▼</td>
 						</tr>
 						<tr>
 							<td>21.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>TorqMax</td>
+							<td>9</td>
+							<td>194</td>
+							<td>34</td>
+							<td>18</td>
+							<td>9</td>
+							<td>1</td>
+							<td class="changeneg">-1 ▼</td>
 						</tr>
 						<tr>
 							<td>22.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Rampage</td>
+							<td>3</td>
+							<td>180</td>
+							<td>32</td>
+							<td>18</td>
+							<td>11</td>
+							<td>0</td>
+							<td class="changeneg">-2 ▼</td>
 						</tr>
 						<tr>
 							<td>23.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Britix</td>
+							<td>41</td>
+							<td>172</td>
+							<td>32</td>
+							<td>28</td>
+							<td>6</td>
+							<td>1</td>
+							<td class="changepos">+1 ▲</td>
 						</tr>
 						<tr>
 							<td>24.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>MFI</td>
+							<td>35</td>
+							<td>155</td>
+							<td>31</td>
+							<td>26</td>
+							<td>3</td>
+							<td>0</td>
+							<td class="changepos">+1 ▲</td>
 						</tr>
 						<tr>
 							<td>25.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Zenhezier</td>
+							<td>15</td>
+							<td>147</td>
+							<td>30</td>
+							<td>23</td>
+							<td>4</td>
+							<td>0</td>
+							<td>+0 ▲</td>
 						</tr>
 						<tr>
 							<td>26.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>PNZ+</td>
+							<td>1</td>
+							<td>131</td>
+							<td>29</td>
+							<td>22</td>
+							<td>1</td>
+							<td>2</td>
+							<td class="changeneg">-1 ▼</td>
 						</tr>
 						<tr>
 							<td>27.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Narroc</td>
+							<td>16</td>
+							<td>119</td>
+							<td>27</td>
+							<td>17</td>
+							<td>3</td>
+							<td>1</td>
+							<td>+0 ▲</td>
 						</tr>
 						<tr>
 							<td>28.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>TriAI</td>
+							<td>21</td>
+							<td>111</td>
+							<td>24</td>
+							<td>15</td>
+							<td>2</td>
+							<td>0</td>
+							<td class="changepos">+2 ▲</td>
 						</tr>
 						<tr>
 							<td>29.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Vertix</td>
+							<td>20</td>
+							<td>102</td>
+							<td>22</td>
+							<td>14</td>
+							<td>1</td>
+							<td>0</td>
+							<td class="changeneg">-1 ▼</td>
 						</tr>
 						<tr>
 							<td>30.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>31.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>32.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>33.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>34.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>35.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>36.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>37.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>38.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>39.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>40.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>41.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>42.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>43.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>44.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>45.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>46.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>47.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>48.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>49.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
-						</tr>
-						<tr>
-							<td>50.</td>
-							<td>default</td>
-							<td>00</td>
-							<td>000</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td>00</td>
-							<td class="change+">+0 ▲</td>
+							<td><b>Comcost</td>
+							<td>51</td>
+							<td>87</td>
+							<td>19</td>
+							<td>10</td>
+							<td>0</td>
+							<td>0</td>
+							<td class="changeneg">-1 ▼</td>
 						</tr>
 					</table>
 					
@@ -707,11 +500,11 @@
 			
 			</div>
 		
-			<div class="topscore">
+			<div class="toptime">
 
-				<div class="topscore1">
+				<div class="toptime1">
 				
-					<h2><p>Best Overall</p></h2>
+					<h2><p>Daytona 11/02/16</p></h2>
 					<table>
 						<tr>
 							<th>#</th>
@@ -720,61 +513,61 @@
 						</tr>
 						<tr>
 							<td>1.</td>
-							<td>Moogle</td>
-							<td>342</td>
+							<td>Waze</td>
+							<td>+25</td>
 						</tr>
 						<tr>
 							<td>2.</td>
-							<td>Team Doge</td>
-							<td>339</td>
+							<td>Doge</td>
+							<td>+24</td>
 						</tr>
 						<tr>
 							<td>3.</td>
 							<td>JeForce</td>
-							<td>334</td>
+							<td>+23</td>
 						</tr>
 						<tr>
 							<td>4.</td>
 							<td>Yaboo</td>
-							<td>329</td>
+							<td>+22</td>
 						</tr>
 						<tr>
 							<td>5.</td>
-							<td>UberAI</td>
-							<td>314</td>
+							<td>Rampage</td>
+							<td>+21</td>
 						</tr>
 						<tr>
 							<td>6.</td>
-							<td>MiniSoft</td>
-							<td>308</td>
+							<td>Cherkov</td>
+							<td>+20</td>
 						</tr>
 						<tr>
 							<td>7.</td>
 							<td>AyyMD</td>
-							<td>301</td>
+							<td>+19</td>
 						</tr>
 						<tr>
 							<td>8.</td>
-							<td>Britim</td>
-							<td>294</td>
+							<td>Gremin</td>
+							<td>+18</td>
 						</tr>
 						<tr>
 							<td>9.</td>
-							<td>NafCo</td>
-							<td>285</td>
+							<td>Monox</td>
+							<td>+17</td>
 						</tr>
 						<tr>
 							<td>10.</td>
-							<td>Zony</td>
-							<td>268</td>
+							<td>Speedman</td>
+							<td>+16</td>
 						</tr>
 					</table>
 					
 				</div>
 				
-				<div class="topscore2">
+				<div class="toptime2">
 				
-					<h2><p>Lap Time (WAIR)</p></h2>
+					<h2><p>Atlanta 10/29/16</p></h2>
 					<table>
 						<tr>
 							<th>#</th>
@@ -783,61 +576,61 @@
 						</tr>
 						<tr>
 							<td>1.</td>
-							<td>Moogle</td>
-							<td>342</td>
+							<td>Waze</td>
+							<td>+25</td>
 						</tr>
 						<tr>
 							<td>2.</td>
-							<td>Team Doge</td>
-							<td>339</td>
+							<td>Doge</td>
+							<td>+24</td>
 						</tr>
 						<tr>
 							<td>3.</td>
 							<td>JeForce</td>
-							<td>334</td>
+							<td>+23</td>
 						</tr>
 						<tr>
 							<td>4.</td>
 							<td>Yaboo</td>
-							<td>329</td>
+							<td>+22</td>
 						</tr>
 						<tr>
 							<td>5.</td>
-							<td>UberAI</td>
-							<td>314</td>
+							<td>Zony</td>
+							<td>+21</td>
 						</tr>
 						<tr>
 							<td>6.</td>
-							<td>MiniSoft</td>
-							<td>308</td>
+							<td>Monox</td>
+							<td>+20</td>
 						</tr>
 						<tr>
 							<td>7.</td>
 							<td>AyyMD</td>
-							<td>301</td>
+							<td>+19</td>
 						</tr>
 						<tr>
 							<td>8.</td>
-							<td>Britim</td>
-							<td>294</td>
+							<td>Texler</td>
+							<td>+18</td>
 						</tr>
 						<tr>
 							<td>9.</td>
-							<td>NafCo</td>
-							<td>285</td>
+							<td>Yokomoto</td>
+							<td>+17</td>
 						</tr>
 						<tr>
 							<td>10.</td>
-							<td>Zony</td>
-							<td>268</td>
+							<td>Flamers</td>
+							<td>+16</td>
 						</tr>
 					</table>
 					
 				</div>
 				
-				<div class="topscore3">
+				<div class="toptime3">
 				
-					<h2><p>Latest Race</p></h2>
+					<h2><p>Vegas 10/15/16</p></h2>
 					<table>
 						<tr>
 							<th>#</th>
@@ -847,60 +640,60 @@
 						<tr>
 							<td>1.</td>
 							<td>Moogle</td>
-							<td>342</td>
+							<td>+25</td>
 						</tr>
 						<tr>
 							<td>2.</td>
-							<td>Team Doge</td>
-							<td>339</td>
+							<td>MiniSoft</td>
+							<td>+24</td>
 						</tr>
 						<tr>
 							<td>3.</td>
 							<td>JeForce</td>
-							<td>334</td>
+							<td>+23</td>
 						</tr>
 						<tr>
 							<td>4.</td>
 							<td>Yaboo</td>
-							<td>329</td>
+							<td>+22</td>
 						</tr>
 						<tr>
 							<td>5.</td>
-							<td>UberAI</td>
-							<td>314</td>
+							<td>MFI</td>
+							<td>+21</td>
 						</tr>
 						<tr>
 							<td>6.</td>
 							<td>MiniSoft</td>
-							<td>308</td>
+							<td>+20</td>
 						</tr>
 						<tr>
 							<td>7.</td>
-							<td>AyyMD</td>
-							<td>301</td>
+							<td>Waze</td>
+							<td>+19</td>
 						</tr>
 						<tr>
 							<td>8.</td>
-							<td>Britim</td>
-							<td>294</td>
+							<td>Britix</td>
+							<td>+18</td>
 						</tr>
 						<tr>
 							<td>9.</td>
-							<td>NafCo</td>
-							<td>285</td>
+							<td>TorqMax</td>
+							<td>+17</td>
 						</tr>
 						<tr>
 							<td>10.</td>
 							<td>Zony</td>
-							<td>268</td>
+							<td>+16</td>
 						</tr>
 					</table>
 					
 				</div>
 				
-				<div class="topscore4">
+				<div class="toptime4">
 				
-					<h2><p>Lap Time (Daytona)</p></h2>
+					<h2><p>Toronto 09/30/16</p></h2>
 					<table>
 						<tr>
 							<th>#</th>
@@ -909,53 +702,53 @@
 						</tr>
 						<tr>
 							<td>1.</td>
-							<td>Moogle</td>
-							<td>342</td>
+							<td>Gremin</td>
+							<td>+25</td>
 						</tr>
 						<tr>
 							<td>2.</td>
-							<td>Team Doge</td>
-							<td>339</td>
+							<td>Moogle</td>
+							<td>+24</td>
 						</tr>
 						<tr>
 							<td>3.</td>
-							<td>JeForce</td>
-							<td>334</td>
+							<td>Waze</td>
+							<td>+23</td>
 						</tr>
 						<tr>
 							<td>4.</td>
-							<td>Yaboo</td>
-							<td>329</td>
+							<td>JeForce</td>
+							<td>+22</td>
 						</tr>
 						<tr>
 							<td>5.</td>
-							<td>UberAI</td>
-							<td>314</td>
+							<td>The Bloc</td>
+							<td>+21</td>
 						</tr>
 						<tr>
 							<td>6.</td>
 							<td>MiniSoft</td>
-							<td>308</td>
+							<td>+20</td>
 						</tr>
 						<tr>
 							<td>7.</td>
 							<td>AyyMD</td>
-							<td>301</td>
+							<td>+19</td>
 						</tr>
 						<tr>
 							<td>8.</td>
-							<td>Britim</td>
-							<td>294</td>
+							<td>Speedman</td>
+							<td>+18</td>
 						</tr>
 						<tr>
 							<td>9.</td>
-							<td>NafCo</td>
-							<td>285</td>
+							<td>Mullroni</td>
+							<td>+17</td>
 						</tr>
 						<tr>
 							<td>10.</td>
-							<td>Zony</td>
-							<td>268</td>
+							<td>Pear</td>
+							<td>+16</td>
 						</tr>
 					</table>
 					
